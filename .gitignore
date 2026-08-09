@@ -2,69 +2,50 @@
 __pycache__/
 *.py[codz]
 *$py.class
+*.pyc
 
 # C extensions
 *.so
 
-# Distribution / packaging
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# PyInstaller
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.py.cover
-.hypothesis/
-.pytest_cache/
-cover/
-
 # Environments
 .env
-.envrc
+.env.*
 .venv
 env/
 venv/
 ENV/
-env.bak/
-venv.bak/
 
 # Jupyter Notebook
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
-# Project Data & Models (excluding README)
-data/*
-!data/README.md
-models/*.pth
+# Models & Weights
 models/*.pt
+models/*.pth
+models/*.onnx
 models/*.h5
+
+# Data directory contents (excluding .gitkeep)
+data/raw/*
+data/processed/*
+data/external/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/external/.gitkeep
+!models/.gitkeep
+!notebooks/.gitkeep
+!reports/.gitkeep
+!tests/.gitkeep
+!src/*/.gitkeep
+
+# Logs
+*.log
+
+# Unit test / coverage reports
+htmlcov/
+.pytest_cache/
+
+# OS / Editor specific
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
