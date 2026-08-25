@@ -1,7 +1,7 @@
 # Architecture & Design Specification
 
 > [!NOTE]
-> **Implementation Status Notice**: This document outlines the Phase-1 architectural foundation for `plant-disease-ai`. All model architectures, vector databases, RAG pipelines, and LLM integrations are **[PLANNED]** and explicitly marked as such. The current repository state is in **Phase 1: Project Foundation & Architecture**.
+> **Implementation Status Notice**: Phase 1 established the repository foundation and conceptual design. Phase 2 introduces the multi-dataset canonical taxonomy and refined system architecture. Detailed specifications are organized under [`docs/architecture/system_architecture.md`](architecture/system_architecture.md).
 
 ---
 

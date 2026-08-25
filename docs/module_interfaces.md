@@ -1,7 +1,7 @@
 # Module Interface Specifications
 
 > [!NOTE]
-> **Specification Notice**: This document defines the conceptual data contracts and API interfaces between components of `plant-disease-ai`. These specifications guide modular, parallel development across team members. Full code implementations are **[PLANNED]** for later development phases.
+> **Specification Notice**: Phase 2 defines exact data contracts, inputs, outputs, and canonical JSON schemas governing inter-module communication. Comprehensive specs are maintained in [`docs/architecture/module_interfaces.md`](architecture/module_interfaces.md).
 
 ---
 

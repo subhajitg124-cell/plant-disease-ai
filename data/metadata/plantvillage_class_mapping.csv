@@ -1,0 +1,39 @@
+class_id,canonical_id,plant,disease,health_status,original_label,source_dataset,image_count
+0,apple_apple_scab,Apple,Apple scab,diseased,Apple___Apple_scab,PlantVillage,630
+1,apple_black_rot,Apple,Black rot,diseased,Apple___Black_rot,PlantVillage,621
+2,apple_cedar_apple_rust,Apple,Cedar apple rust,diseased,Apple___Cedar_apple_rust,PlantVillage,275
+3,apple_healthy,Apple,Healthy,healthy,Apple___healthy,PlantVillage,1645
+4,blueberry_healthy,Blueberry,Healthy,healthy,Blueberry___healthy,PlantVillage,1502
+5,cherry_powdery_mildew,Cherry,Powdery mildew,diseased,Cherry_(including_sour)___Powdery_mildew,PlantVillage,1052
+6,cherry_healthy,Cherry,Healthy,healthy,Cherry_(including_sour)___healthy,PlantVillage,854
+7,corn_cercospora_leaf_spot_gray_leaf_spot,Corn (maize),Cercospora leaf spot Gray leaf spot,diseased,Corn_(maize)___Cercospora_leaf_spot Gray_leaf_spot,PlantVillage,513
+8,corn_common_rust,Corn (maize),Common rust,diseased,Corn_(maize)___Common_rust_,PlantVillage,1192
+9,corn_northern_leaf_blight,Corn (maize),Northern Leaf Blight,diseased,Corn_(maize)___Northern_Leaf_Blight,PlantVillage,985
+10,corn_healthy,Corn (maize),Healthy,healthy,Corn_(maize)___healthy,PlantVillage,1162
+11,grape_black_rot,Grape,Black rot,diseased,Grape___Black_rot,PlantVillage,1180
+12,grape_esca_black_measles,Grape,Esca (Black Measles),diseased,Grape___Esca_(Black_Measles),PlantVillage,1383
+13,grape_leaf_blight_isariopsis_leaf_spot,Grape,Leaf blight (Isariopsis Leaf Spot),diseased,Grape___Leaf_blight_(Isariopsis_Leaf_Spot),PlantVillage,1076
+14,grape_healthy,Grape,Healthy,healthy,Grape___healthy,PlantVillage,423
+15,orange_haunglongbing_citrus_greening,Orange,Haunglongbing (Citrus greening),diseased,Orange___Haunglongbing_(Citrus_greening),PlantVillage,5507
+16,peach_bacterial_spot,Peach,Bacterial spot,diseased,Peach___Bacterial_spot,PlantVillage,2297
+17,peach_healthy,Peach,Healthy,healthy,Peach___healthy,PlantVillage,360
+18,bell_pepper_bacterial_spot,Bell Pepper,Bacterial spot,diseased,"Pepper,_bell___Bacterial_spot",PlantVillage,997
+19,bell_pepper_healthy,Bell Pepper,Healthy,healthy,"Pepper,_bell___healthy",PlantVillage,1478
+20,potato_early_blight,Potato,Early blight,diseased,Potato___Early_blight,PlantVillage,1000
+21,potato_late_blight,Potato,Late blight,diseased,Potato___Late_blight,PlantVillage,1000
+22,potato_healthy,Potato,Healthy,healthy,Potato___healthy,PlantVillage,152
+23,raspberry_healthy,Raspberry,Healthy,healthy,Raspberry___healthy,PlantVillage,371
+24,soybean_healthy,Soybean,Healthy,healthy,Soybean___healthy,PlantVillage,5090
+25,squash_powdery_mildew,Squash,Powdery mildew,diseased,Squash___Powdery_mildew,PlantVillage,1835
+26,strawberry_leaf_scorch,Strawberry,Leaf scorch,diseased,Strawberry___Leaf_scorch,PlantVillage,1109
+27,strawberry_healthy,Strawberry,Healthy,healthy,Strawberry___healthy,PlantVillage,456
+28,tomato_bacterial_spot,Tomato,Bacterial spot,diseased,Tomato___Bacterial_spot,PlantVillage,2127
+29,tomato_early_blight,Tomato,Early blight,diseased,Tomato___Early_blight,PlantVillage,1000
+30,tomato_late_blight,Tomato,Late blight,diseased,Tomato___Late_blight,PlantVillage,1909
+31,tomato_leaf_mold,Tomato,Leaf Mold,diseased,Tomato___Leaf_Mold,PlantVillage,952
+32,tomato_septoria_leaf_spot,Tomato,Septoria leaf spot,diseased,Tomato___Septoria_leaf_spot,PlantVillage,1771
+33,tomato_two_spotted_spider_mite,Tomato,Two-spotted spider mite,diseased,Tomato___Spider_mites Two-spotted_spider_mite,PlantVillage,1676
+34,tomato_target_spot,Tomato,Target Spot,diseased,Tomato___Target_Spot,PlantVillage,1404
+35,tomato_yellow_leaf_curl_virus,Tomato,Tomato Yellow Leaf Curl Virus,diseased,Tomato___Tomato_Yellow_Leaf_Curl_Virus,PlantVillage,5357
+36,tomato_mosaic_virus,Tomato,Tomato mosaic virus,diseased,Tomato___Tomato_mosaic_virus,PlantVillage,373
+37,tomato_healthy,Tomato,Healthy,healthy,Tomato___healthy,PlantVillage,1591

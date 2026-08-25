@@ -1,6 +1,6 @@
 # Plant Disease AI
 
-> **Status**: **Phase 1 — Project Foundation & Architecture** (`[IN PROGRESS]`)
+> **Status**: **Phase 2 — Multi-Dataset Taxonomy & Architecture Specifications** (`[IN PROGRESS]`)
 
 ---
 
@@ -18,8 +18,9 @@ Conventional deep learning plant disease classifiers rely heavily on static, clo
 
 ## Objectives
 
-- **Image and Video Processing**: Support multi-modal inputs, including static images and continuous video frame streams.
+- **Image and Video Processing**: Support multi-modal inputs, including static images and continuous video frame streams (future extension).
 - **CNN-Based Disease Classification**: Train robust convolutional models for baseline disease recognition.
+- **Canonical Multi-Dataset Taxonomy**: Translate dataset-specific class labels (PlantVillage, PlantDoc, Plant Pathology) into unified, machine-friendly canonical disease IDs.
 - **Visual Embedding Extraction**: Extract high-dimensional visual feature vectors to enable similarity matching and open-set recognition.
 - **Few-Shot / Embedding-Based Adaptation**: Enable rapid adaptation to unseen plant species and new disease datasets without full model retraining.
 - **RAG-Based Knowledge Retrieval**: Retrieve verified, domain-specific agricultural literature and care guides using vector similarity.
@@ -28,15 +29,15 @@ Conventional deep learning plant disease classifiers rely heavily on static, clo
 
 ---
 
-## Architecture
+## Architecture & Dataflow
 
-The system operates across two key execution paths:
-1. **Primary Inference & Advisory Path**: Ingestion → Preprocessing → CNN Classification & Embedding Extraction → Vector Retrieval → LLM Advisory Generation.
+The system operates across key execution paths:
+1. **Primary Inference & Advisory Path**: User Image Ingestion → Plant Validation → Image Preprocessing → CNN Classification & Embedding Extraction → Canonical Disease ID Translation → Vector Retrieval → LLM Advisory Generation.
 2. **Unseen-Dataset Adaptation Path**: Unseen Dataset Ingestion → Feature Embedding Extraction → Few-Shot Similarity Adaptation → Class Index Updating → Retrieval & Advisory.
 
-For detailed architecture diagrams, pipeline breakdowns, and component specifications, refer to [docs/architecture.md](docs/architecture.md).
+For detailed architecture diagrams, pipeline breakdowns, and component specifications, refer to [docs/architecture/system_architecture.md](docs/architecture/system_architecture.md).
 
-For inter-module data contracts and interface definitions, refer to [docs/module_interfaces.md](docs/module_interfaces.md).
+For inter-module data contracts and interface definitions, refer to [docs/architecture/module_interfaces.md](docs/architecture/module_interfaces.md).
 
 ---
 
@@ -46,9 +47,15 @@ For inter-module data contracts and interface definitions, refer to [docs/module
 plant-disease-ai/
 ├── data/
 │   ├── external/       # External datasets and reference benchmarks
+│   ├── metadata/       # Canonical class taxonomies & dataset mappings
+│   │   ├── class_mapping.csv
+│   │   └── plantvillage_class_mapping.csv
 │   ├── processed/      # Normalized, transformed, and augmented data
 │   └── raw/            # Raw un-processed image datasets
 ├── docs/               # Architecture design & interface specifications
+│   ├── architecture/
+│   │   ├── module_interfaces.md
+│   │   └── system_architecture.md
 │   ├── architecture.md
 │   └── module_interfaces.md
 ├── models/             # Saved model checkpoints, weights, and indexes
@@ -64,10 +71,21 @@ plant-disease-ai/
 │   ├── retrieval/      # Vector database indexing & RAG search
 │   └── vision/         # CNN backbones & disease classification heads
 ├── tests/              # Unit and integration test suites
+│   └── test_taxonomy_mapping.py  # Taxonomy verification tests
 ├── .gitignore          # Repository ignore rules
 ├── README.md           # Project documentation root
 └── requirements.txt    # Python dependencies manifest
 ```
+
+---
+
+## Dataset Status (PlantVillage Baseline)
+
+- **Dataset**: PlantVillage
+- **Total Images**: 54,305
+- **Total Classes**: 38 (0..37)
+- **Status**: Inspected & Mapped (`data/metadata/plantvillage_class_mapping.csv`)
+- **Imbalance Notes**: Class frequencies range from 5,507 images (`Orange___Haunglongbing_(Citrus_greening)`) to 152 images (`Potato___healthy`). Class-weighted loss and balanced sampling strategies will be applied during Phase 2 training.
 
 ---
 
@@ -96,85 +114,46 @@ plant-disease-ai/
 
 ---
 
-## Dataset Policy
+## Dataset Policy & Storage Architecture
 
-- Public agricultural datasets (e.g., PlantVillage) will be used for initial experimentation and baseline training during development.
-- Final evaluation will be conducted on unseen datasets provided by the project evaluation committee.
-- **Note**: Raw datasets are excluded from Git tracking via `.gitignore` and are not committed directly to the repository.
+- **GitHub Repository**: Source code, metadata CSVs, tests, and documentation.
+- **Google Drive**: Large raw datasets, processed feature caches, and model weight checkpoints.
+- **Google Colab**: High-performance GPU compute workspace for dataset exploration and training.
+- **Note**: Raw dataset files are excluded from Git tracking via `.gitignore`. Dataset storage paths are configurable via environment variables and must not be hardcoded to machine-specific local directories.
 
 ---
 
-## Environment Setup
+## Environment Setup & Verification
 
-### 1. Create Virtual Environment
-
-```bash
-python -m venv .venv
-```
-
-### 2. Activate Virtual Environment
-
+### 1. Activate Virtual Environment
 - **Windows (PowerShell)**:
   ```powershell
   \.venv\Scripts\Activate.ps1
   ```
-- **Windows (Command Prompt)**:
-  ```cmd
-  .venv\Scripts\activate.bat
-  ```
-- **Linux / macOS**:
-  ```bash
-  source .venv/bin/activate
-  ```
 
-### 3. Install Dependencies
-
-```bash
-pip install -r requirements.txt
-```
-
----
-
-## Environment Verification
-
-Verify that all required ML/CV packages and GPU/CUDA acceleration are properly configured by running:
-
+### 2. Run Diagnostics
 ```bash
 python scripts/verify_env.py
 ```
 
-Expected output:
-
-```text
-============================================================
-Package / Component       | Status     | Version
-------------------------------------------------------------
-Python                    | OK         | 3.14.0a4
-PyTorch (torch)           | OK         | 2.13.0+cu126
-torchvision               | OK         | 0.28.0+cu126
-OpenCV (cv2)              | OK         | 5.0.0.93
-Pillow (PIL)              | OK         | 12.3.0
-NumPy (numpy)             | OK         | 2.5.1
-pandas                    | OK         | 3.0.5
-matplotlib                | OK         | 3.11.1
-scikit-learn (sklearn)    | OK         | 1.9.0
-============================================================
-CUDA Available for PyTorch: True
-CUDA Device Name: NVIDIA GeForce RTX 3050 Laptop GPU
-============================================================
+### 3. Run Taxonomy Verification Tests
+```bash
+python -m unittest tests/test_taxonomy_mapping.py
 ```
 
 ---
 
 ## Development Roadmap
 
-- [x] **Phase 1: Architecture & Data Sourcing Foundation** *(Current)*
+- [x] **Phase 1: Architecture & Data Sourcing Foundation**
   - Repository structure setup & tracking controls
-  - System architecture & interface contract specification
-  - Environment verification & setup documentation
-- [ ] **Phase 2: Preprocessing & Vision Baseline Engine**
-  - Image/video processing pipelines
-  - Baseline CNN classifier training & embedding extraction
+  - Baseline architecture & interface specification
+- [/] **Phase 2: Multi-Dataset Taxonomy & Vision Baseline Engine** *(Current)*
+  - [x] Multi-dataset canonical class taxonomy design & CSV mapping (`class_mapping.csv`)
+  - [x] Detailed architecture & interface specifications (`docs/architecture/`)
+  - [x] Automated taxonomy verification test suite (`tests/test_taxonomy_mapping.py`)
+  - [ ] Image preprocessing & augmentation pipelines
+  - [ ] Baseline CNN classifier training & embedding extraction
 - [ ] **Phase 3: RAG Knowledge Base & Advisory Pipeline**
   - Vector database indexing for agricultural guides
   - Semantic retrieval & LLM advisory prompt engineering
@@ -182,10 +161,3 @@ CUDA Device Name: NVIDIA GeForce RTX 3050 Laptop GPU
   - Embedding adaptation on unseen plant species/datasets
 - [ ] **Phase 5: Integration, System Evaluation & Testing**
   - End-to-end integration and metric benchmarking on unseen test sets
-
----
-
-## Current Status
-
-**Current Phase**: `Phase 1 — Project Foundation & Architecture`.
-All pipeline designs and module interfaces are defined. Model implementations, training pipelines, vector databases, and UI interfaces will be developed sequentially in subsequent phases.
