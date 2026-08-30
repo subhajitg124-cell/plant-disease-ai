@@ -6,7 +6,7 @@
 
 ## 1. Executive Summary & Objective
 
-The **Plant Disease AI** system is an extensible computer vision and knowledge-retrieval platform. Given an input plant image, the system validates plant presence, identifies the crop species and disease status, computes a prediction confidence score, retrieves grounded pathology insights from a verified agricultural knowledge base, and outputs structured symptom analysis, cause explanations, and management/prevention guidance.
+The **Plant Disease Detection** system is an extensible computer vision and knowledge-retrieval platform. Given an input plant image, the system validates plant presence, identifies the crop species and disease status, computes a prediction confidence score, retrieves grounded pathology insights from a verified agricultural knowledge base, and outputs structured symptom analysis, cause explanations, and management/prevention guidance.
 
 ---
 

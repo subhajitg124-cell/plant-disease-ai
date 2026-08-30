@@ -2,7 +2,7 @@
 
 > **Status**: **Phase 2 Specification** (`[IMPLEMENTED SCHEMAS]`)
 
-This document defines the exact data contracts, inputs, outputs, Python dataclasses (`src/contracts.py`), and canonical JSON schemas governing inter-module communication across the **Plant Disease AI** platform.
+This document defines the exact data contracts, inputs, outputs, Python dataclasses (`src/contracts.py`), and canonical JSON schemas governing inter-module communication across the **Plant Disease Detection** platform.
 
 ---
 

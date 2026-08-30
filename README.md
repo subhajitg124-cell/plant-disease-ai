@@ -6,7 +6,7 @@
 
 ## Project Overview
 
-**Plant Disease Detection** is a generalized AI-driven plant disease detection and agricultural advisory system. By combining computer vision, visual embeddings, few-shot adaptation, vector-based retrieva[...]
+**Plant Disease Detection** is a generalized AI-driven plant disease detection and agricultural advisory system. By combining computer vision, visual embeddings, few-shot adaptation, vector-based retrieval augmented generation (RAG), and large language model (LLM) reasoning, the system aims to provide accurate disease identification alongside actionable, grounded treatment and care recommendations for farmers and agricultural domain experts.
 
 ---
 

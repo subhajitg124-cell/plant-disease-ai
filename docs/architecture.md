@@ -7,7 +7,7 @@
 
 ## 1. System Overview
 
-The **Plant Disease AI** system is designed as a generalized, embedding-driven plant disease detection and advisory system. Beyond static closed-set classification, it incorporates visual embeddings, few-shot adaptation for unseen datasets, retrieval-augmented generation (RAG), and LLM reasoning to deliver actionable treatment, prevention, and care guidance to farmers and agricultural experts.
+The **Plant Disease Detection** system is designed as a generalized, embedding-driven plant disease detection and advisory system. Beyond static closed-set classification, it incorporates visual embeddings, few-shot adaptation for unseen datasets, retrieval-augmented generation (RAG), and LLM reasoning to deliver actionable treatment, prevention, and care guidance to farmers and agricultural experts.
 
 ---
 

@@ -1,5 +1,5 @@
 """
-Module Interface Contracts for Plant Disease AI.
+Module Interface Contracts for Plant Disease Detection.
 
 Defines typed dataclass schemas and data contracts governing inter-module 
 communication across Vision, RAG Knowledge Base, and Integration layers.
