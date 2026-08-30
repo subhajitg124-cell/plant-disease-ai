@@ -1,4 +1,4 @@
-# Plant Disease AI
+# Plant Disease Detection
 
 > **Status**: **Phase 2 — Multi-Dataset Taxonomy & Architecture Specifications** (`[IN PROGRESS]`)
 
@@ -6,13 +6,13 @@
 
 ## Project Overview
 
-**Plant Disease AI** is a generalized AI-driven plant disease detection and agricultural advisory system. By combining computer vision, visual embeddings, few-shot adaptation, vector-based retrieval augmented generation (RAG), and large language model (LLM) reasoning, the system aims to provide accurate disease identification alongside actionable, grounded treatment and care recommendations for farmers and agricultural domain experts.
+**Plant Disease Detection** is a generalized AI-driven plant disease detection and agricultural advisory system. By combining computer vision, visual embeddings, few-shot adaptation, vector-based retrieva[...]
 
 ---
 
 ## Problem Statement
 
-Conventional deep learning plant disease classifiers rely heavily on static, closed-set datasets. When deployed in real-world scenarios or introduced to unseen crop varieties and changing environmental conditions, fixed classifiers struggle to generalize without extensive model retraining. Furthermore, standard classifiers only output disease labels without providing contextual guidance on treatment, preventative care, or risk mitigation.
+Conventional deep learning plant disease classifiers rely heavily on static, closed-set datasets. When deployed in real-world scenarios or introduced to unseen crop varieties and changing environm[...]
 
 ---
 
@@ -32,7 +32,7 @@ Conventional deep learning plant disease classifiers rely heavily on static, clo
 ## Architecture & Dataflow
 
 The system operates across key execution paths:
-1. **Primary Inference & Advisory Path**: User Image Ingestion → Plant Validation → Image Preprocessing → CNN Classification & Embedding Extraction → Canonical Disease ID Translation → Vector Retrieval → LLM Advisory Generation.
+1. **Primary Inference & Advisory Path**: User Image Ingestion → Plant Validation → Image Preprocessing → CNN Classification & Embedding Extraction → Canonical Disease ID Translation → V[...]
 2. **Unseen-Dataset Adaptation Path**: Unseen Dataset Ingestion → Feature Embedding Extraction → Few-Shot Similarity Adaptation → Class Index Updating → Retrieval & Advisory.
 
 For detailed architecture diagrams, pipeline breakdowns, and component specifications, refer to [docs/architecture/system_architecture.md](docs/architecture/system_architecture.md).
@@ -85,7 +85,7 @@ plant-disease-ai/
 - **Total Images**: 54,305
 - **Total Classes**: 38 (0..37)
 - **Status**: Inspected & Mapped (`data/metadata/plantvillage_class_mapping.csv`)
-- **Imbalance Notes**: Class frequencies range from 5,507 images (`Orange___Haunglongbing_(Citrus_greening)`) to 152 images (`Potato___healthy`). Class-weighted loss and balanced sampling strategies will be applied during Phase 2 training.
+- **Imbalance Notes**: Class frequencies range from 5,507 images (`Orange___Haunglongbing_(Citrus_greening)`) to 152 images (`Potato___healthy`). Class-weighted loss and balanced sampling strategi[...]
 
 ---
 
@@ -119,7 +119,7 @@ plant-disease-ai/
 - **GitHub Repository**: Source code, metadata CSVs, tests, and documentation.
 - **Google Drive**: Large raw datasets, processed feature caches, and model weight checkpoints.
 - **Google Colab**: High-performance GPU compute workspace for dataset exploration and training.
-- **Note**: Raw dataset files are excluded from Git tracking via `.gitignore`. Dataset storage paths are configurable via environment variables and must not be hardcoded to machine-specific local directories.
+- **Note**: Raw dataset files are excluded from Git tracking via `.gitignore`. Dataset storage paths are configurable via environment variables and must not be hardcoded to machine-specific local[...]
 
 ---
 
