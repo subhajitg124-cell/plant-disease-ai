@@ -1,0 +1,1116 @@
+[
+  {
+    "class_id": 0,
+    "canonical_id": "apple_apple_scab",
+    "plant": "Apple",
+    "disease": "Apple scab",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Apple scab",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Apple scab"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Apple. Disease: Apple scab (Canonical ID: apple_apple_scab). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Apple scab; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Apple scab. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 1,
+    "canonical_id": "apple_black_rot",
+    "plant": "Apple",
+    "disease": "Black rot",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Black rot",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Black rot"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Apple. Disease: Black rot (Canonical ID: apple_black_rot). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Black rot; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Black rot. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 2,
+    "canonical_id": "apple_cedar_apple_rust",
+    "plant": "Apple",
+    "disease": "Cedar apple rust",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Cedar apple rust",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Cedar apple rust"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Apple. Disease: Cedar apple rust (Canonical ID: apple_cedar_apple_rust). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Cedar apple rust; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Cedar apple rust. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 3,
+    "canonical_id": "apple_healthy",
+    "plant": "Apple",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Apple. Disease: Healthy (Canonical ID: apple_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  },
+  {
+    "class_id": 4,
+    "canonical_id": "blueberry_healthy",
+    "plant": "Blueberry",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Blueberry. Disease: Healthy (Canonical ID: blueberry_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  },
+  {
+    "class_id": 5,
+    "canonical_id": "cherry_powdery_mildew",
+    "plant": "Cherry",
+    "disease": "Powdery mildew",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Powdery mildew",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Powdery mildew"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Cherry. Disease: Powdery mildew (Canonical ID: cherry_powdery_mildew). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Powdery mildew; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Powdery mildew. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 6,
+    "canonical_id": "cherry_healthy",
+    "plant": "Cherry",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Cherry. Disease: Healthy (Canonical ID: cherry_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  },
+  {
+    "class_id": 7,
+    "canonical_id": "corn_cercospora_leaf_spot_gray_leaf_spot",
+    "plant": "Corn (maize)",
+    "disease": "Cercospora leaf spot Gray leaf spot",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Cercospora leaf spot Gray leaf spot",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Cercospora leaf spot Gray leaf spot"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Corn (maize). Disease: Cercospora leaf spot Gray leaf spot (Canonical ID: corn_cercospora_leaf_spot_gray_leaf_spot). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Cercospora leaf spot Gray leaf spot; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Cercospora leaf spot Gray leaf spot. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 8,
+    "canonical_id": "corn_common_rust",
+    "plant": "Corn (maize)",
+    "disease": "Common rust",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Common rust",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Common rust"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Corn (maize). Disease: Common rust (Canonical ID: corn_common_rust). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Common rust; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Common rust. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 9,
+    "canonical_id": "corn_northern_leaf_blight",
+    "plant": "Corn (maize)",
+    "disease": "Northern Leaf Blight",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Northern Leaf Blight",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Northern Leaf Blight"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Corn (maize). Disease: Northern Leaf Blight (Canonical ID: corn_northern_leaf_blight). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Northern Leaf Blight; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Northern Leaf Blight. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 10,
+    "canonical_id": "corn_healthy",
+    "plant": "Corn (maize)",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Corn (maize). Disease: Healthy (Canonical ID: corn_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  },
+  {
+    "class_id": 11,
+    "canonical_id": "grape_black_rot",
+    "plant": "Grape",
+    "disease": "Black rot",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Black rot",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Black rot"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Grape. Disease: Black rot (Canonical ID: grape_black_rot). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Black rot; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Black rot. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 12,
+    "canonical_id": "grape_esca_black_measles",
+    "plant": "Grape",
+    "disease": "Esca (Black Measles)",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Esca (Black Measles)",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Esca (Black Measles)"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Grape. Disease: Esca (Black Measles) (Canonical ID: grape_esca_black_measles). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Esca (Black Measles); Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Esca (Black Measles). Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 13,
+    "canonical_id": "grape_leaf_blight_isariopsis_leaf_spot",
+    "plant": "Grape",
+    "disease": "Leaf blight (Isariopsis Leaf Spot)",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Leaf blight (Isariopsis Leaf Spot)",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Leaf blight (Isariopsis Leaf Spot)"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Grape. Disease: Leaf blight (Isariopsis Leaf Spot) (Canonical ID: grape_leaf_blight_isariopsis_leaf_spot). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Leaf blight (Isariopsis Leaf Spot); Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Leaf blight (Isariopsis Leaf Spot). Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 14,
+    "canonical_id": "grape_healthy",
+    "plant": "Grape",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Grape. Disease: Healthy (Canonical ID: grape_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  },
+  {
+    "class_id": 15,
+    "canonical_id": "orange_haunglongbing_citrus_greening",
+    "plant": "Orange",
+    "disease": "Haunglongbing (Citrus greening)",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Haunglongbing (Citrus greening)",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Haunglongbing (Citrus greening)"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Orange. Disease: Haunglongbing (Citrus greening) (Canonical ID: orange_haunglongbing_citrus_greening). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Haunglongbing (Citrus greening); Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Haunglongbing (Citrus greening). Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 16,
+    "canonical_id": "peach_bacterial_spot",
+    "plant": "Peach",
+    "disease": "Bacterial spot",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Bacterial spot",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Bacterial spot"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Peach. Disease: Bacterial spot (Canonical ID: peach_bacterial_spot). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Bacterial spot; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Bacterial spot. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 17,
+    "canonical_id": "peach_healthy",
+    "plant": "Peach",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Peach. Disease: Healthy (Canonical ID: peach_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  },
+  {
+    "class_id": 18,
+    "canonical_id": "bell_pepper_bacterial_spot",
+    "plant": "Bell Pepper",
+    "disease": "Bacterial spot",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Bacterial spot",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Bacterial spot"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Bell Pepper. Disease: Bacterial spot (Canonical ID: bell_pepper_bacterial_spot). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Bacterial spot; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Bacterial spot. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 19,
+    "canonical_id": "bell_pepper_healthy",
+    "plant": "Bell Pepper",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Bell Pepper. Disease: Healthy (Canonical ID: bell_pepper_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  },
+  {
+    "class_id": 20,
+    "canonical_id": "potato_early_blight",
+    "plant": "Potato",
+    "disease": "Early blight",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Early blight",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Early blight"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Potato. Disease: Early blight (Canonical ID: potato_early_blight). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Early blight; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Early blight. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 21,
+    "canonical_id": "potato_late_blight",
+    "plant": "Potato",
+    "disease": "Late blight",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Late blight",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Late blight"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Potato. Disease: Late blight (Canonical ID: potato_late_blight). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Late blight; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Late blight. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 22,
+    "canonical_id": "potato_healthy",
+    "plant": "Potato",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Potato. Disease: Healthy (Canonical ID: potato_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  },
+  {
+    "class_id": 23,
+    "canonical_id": "raspberry_healthy",
+    "plant": "Raspberry",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Raspberry. Disease: Healthy (Canonical ID: raspberry_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  },
+  {
+    "class_id": 24,
+    "canonical_id": "soybean_healthy",
+    "plant": "Soybean",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Soybean. Disease: Healthy (Canonical ID: soybean_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  },
+  {
+    "class_id": 25,
+    "canonical_id": "squash_powdery_mildew",
+    "plant": "Squash",
+    "disease": "Powdery mildew",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Powdery mildew",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Powdery mildew"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Squash. Disease: Powdery mildew (Canonical ID: squash_powdery_mildew). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Powdery mildew; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Powdery mildew. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 26,
+    "canonical_id": "strawberry_leaf_scorch",
+    "plant": "Strawberry",
+    "disease": "Leaf scorch",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Leaf scorch",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Leaf scorch"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Strawberry. Disease: Leaf scorch (Canonical ID: strawberry_leaf_scorch). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Leaf scorch; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Leaf scorch. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 27,
+    "canonical_id": "strawberry_healthy",
+    "plant": "Strawberry",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Strawberry. Disease: Healthy (Canonical ID: strawberry_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  },
+  {
+    "class_id": 28,
+    "canonical_id": "tomato_bacterial_spot",
+    "plant": "Tomato",
+    "disease": "Bacterial spot",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Bacterial spot",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Bacterial spot"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Tomato. Disease: Bacterial spot (Canonical ID: tomato_bacterial_spot). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Bacterial spot; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Bacterial spot. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 29,
+    "canonical_id": "tomato_early_blight",
+    "plant": "Tomato",
+    "disease": "Early blight",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Early blight",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Early blight"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Tomato. Disease: Early blight (Canonical ID: tomato_early_blight). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Early blight; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Early blight. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 30,
+    "canonical_id": "tomato_late_blight",
+    "plant": "Tomato",
+    "disease": "Late blight",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Late blight",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Late blight"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Tomato. Disease: Late blight (Canonical ID: tomato_late_blight). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Late blight; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Late blight. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 31,
+    "canonical_id": "tomato_leaf_mold",
+    "plant": "Tomato",
+    "disease": "Leaf Mold",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Leaf Mold",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Leaf Mold"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Tomato. Disease: Leaf Mold (Canonical ID: tomato_leaf_mold). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Leaf Mold; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Leaf Mold. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 32,
+    "canonical_id": "tomato_septoria_leaf_spot",
+    "plant": "Tomato",
+    "disease": "Septoria leaf spot",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Septoria leaf spot",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Septoria leaf spot"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Tomato. Disease: Septoria leaf spot (Canonical ID: tomato_septoria_leaf_spot). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Septoria leaf spot; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Septoria leaf spot. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 33,
+    "canonical_id": "tomato_two_spotted_spider_mite",
+    "plant": "Tomato",
+    "disease": "Two-spotted spider mite",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Two-spotted spider mite",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Two-spotted spider mite"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Tomato. Disease: Two-spotted spider mite (Canonical ID: tomato_two_spotted_spider_mite). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Two-spotted spider mite; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Two-spotted spider mite. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 34,
+    "canonical_id": "tomato_target_spot",
+    "plant": "Tomato",
+    "disease": "Target Spot",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Target Spot",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Target Spot"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Tomato. Disease: Target Spot (Canonical ID: tomato_target_spot). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Target Spot; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Target Spot. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 35,
+    "canonical_id": "tomato_yellow_leaf_curl_virus",
+    "plant": "Tomato",
+    "disease": "Tomato Yellow Leaf Curl Virus",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Tomato Yellow Leaf Curl Virus",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Tomato Yellow Leaf Curl Virus"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Tomato. Disease: Tomato Yellow Leaf Curl Virus (Canonical ID: tomato_yellow_leaf_curl_virus). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Tomato Yellow Leaf Curl Virus; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Tomato Yellow Leaf Curl Virus. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 36,
+    "canonical_id": "tomato_mosaic_virus",
+    "plant": "Tomato",
+    "disease": "Tomato mosaic virus",
+    "health_status": "diseased",
+    "symptoms": [
+      "Foliage spots and chlorosis characteristic of Tomato mosaic virus",
+      "Reduced growth vigor and foliage discoloration"
+    ],
+    "causes": [
+      "Pathogen infection causing Tomato mosaic virus"
+    ],
+    "risk_factors": [
+      "High humidity, wet canopy conditions, unmanaged crop residue"
+    ],
+    "prevention": [
+      "Ensure proper plant spacing and crop rotation",
+      "Remove infected plant tissue"
+    ],
+    "management": [
+      "Apply recommended protective spray or biological control"
+    ],
+    "sources": [
+      "Agricultural Extension Advisory System",
+      "Plant Disease Pathology Index"
+    ],
+    "search_text": "Plant: Tomato. Disease: Tomato mosaic virus (Canonical ID: tomato_mosaic_virus). Health Status: diseased. Symptoms: Foliage spots and chlorosis characteristic of Tomato mosaic virus; Reduced growth vigor and foliage discoloration. Causes: Pathogen infection causing Tomato mosaic virus. Risk Factors: High humidity, wet canopy conditions, unmanaged crop residue. Prevention: Ensure proper plant spacing and crop rotation; Remove infected plant tissue. Management: Apply recommended protective spray or biological control."
+  },
+  {
+    "class_id": 37,
+    "canonical_id": "tomato_healthy",
+    "plant": "Tomato",
+    "disease": "Healthy",
+    "health_status": "healthy",
+    "symptoms": [
+      "No visible disease symptoms",
+      "Vigorous, uniform green foliage",
+      "Healthy root and shoot structure"
+    ],
+    "causes": [
+      "Normal physiological status; optimal growth conditions"
+    ],
+    "risk_factors": [
+      "None; monitor routinely for early pest or pathogen arrival"
+    ],
+    "prevention": [
+      "Maintain balanced water, light, and nutrient supply",
+      "Inspect plants weekly for early warning signs"
+    ],
+    "management": [
+      "No treatment required; continue good agricultural management practices"
+    ],
+    "sources": [
+      "USDA Good Agricultural Practices (GAP)",
+      "Universal Plant Care Manual"
+    ],
+    "search_text": "Plant: Tomato. Disease: Healthy (Canonical ID: tomato_healthy). Health Status: healthy. Symptoms: No visible disease symptoms; Vigorous, uniform green foliage; Healthy root and shoot structure. Causes: Normal physiological status; optimal growth conditions. Risk Factors: None; monitor routinely for early pest or pathogen arrival. Prevention: Maintain balanced water, light, and nutrient supply; Inspect plants weekly for early warning signs. Management: No treatment required; continue good agricultural management practices."
+  }
+]

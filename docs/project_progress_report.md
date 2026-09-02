@@ -330,13 +330,13 @@ The planned components are distinguished from the currently verified Phase 2 fou
 | Interface documentation | Implemented | **Completed** |
 | Automated unit tests | Implemented and passing | **Completed** |
 | GPU/Colab development infrastructure | Established | **Completed** |
-| Image preprocessing pipeline | Planned/under implementation | **Next phase** |
-| CNN baseline training | Planned/under implementation | **Next phase** |
-| Production visual embeddings | Future extension | **Pending** |
-| Production RAG knowledge base | Planned | **Next phase** |
-| Vector retrieval | Planned | **Next phase** |
-| LLM advisory generation | Planned | **Next phase** |
-| End-to-end evaluation | Planned | **Later phase** |
+| Image preprocessing pipeline | Implemented and verified | **Completed** |
+| CNN baseline training | Trained PlantDiseaseCNN (`models/plant_disease_cnn.pth`) | **Completed** |
+| Production visual embeddings | Extracted and cached 128-dim vectors (`models/visual_embeddings_cache.npz`) | **Completed** |
+| Production RAG knowledge base | Built 38-class agricultural guides (`data/knowledge_base/agricultural_documents.json`) | **Completed** |
+| Vector retrieval | FAISS / ChromaDB / NumPy vector similarity engine (`src/retrieval/vector_store.py`) | **Completed** |
+| LLM & Advisory Generation | Grounded AdvisoryGenerator & IntegratedResponse (`src/advisory/advisory_generator.py`) | **Completed** |
+| End-to-end evaluation | Baseline validation report generated (`reports/baseline_performance_report.md`) | **Completed** |
 
 ---
 

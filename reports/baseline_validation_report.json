@@ -1,15 +1,16 @@
 {
   "model_version": "vision_v1",
+  "model_path": "models/plant_disease_cnn.pth",
   "num_classes": 38,
   "metrics": {
-    "accuracy": 0.0,
-    "precision_macro": 0.0,
-    "recall_macro": 0.0,
-    "f1_macro": 0.0,
-    "precision_weighted": 0.0,
-    "recall_weighted": 0.0,
-    "f1_weighted": 0.0,
-    "top1_accuracy": 0.0,
+    "accuracy": 0.02631578947368421,
+    "precision_macro": 0.0007112375533428165,
+    "recall_macro": 0.02631578947368421,
+    "f1_macro": 0.0013850415512465374,
+    "precision_weighted": 0.0007112375533428165,
+    "recall_weighted": 0.02631578947368421,
+    "f1_weighted": 0.0013850415512465374,
+    "top1_accuracy": 0.02631578947368421,
     "top3_accuracy": 0.07894736842105263,
     "top5_accuracy": 0.13157894736842105,
     "total_samples": 38,
@@ -17,6 +18,8 @@
       38,
       38
     ],
-    "confusion_matrix_sample_sum": 38
+    "confusion_matrix_sample_sum": 38,
+    "error_count": 37,
+    "error_rate": 0.9736842105263158
   }
 }

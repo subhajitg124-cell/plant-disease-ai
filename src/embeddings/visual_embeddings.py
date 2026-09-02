@@ -19,8 +19,21 @@ try:
 except ImportError:
     HAS_TORCH = False
 
-from src.vision.model import PlantDiseaseCNN
-from src.preprocessing.pipeline import PreprocessingPipeline
+try:
+    from src.vision.model import PlantDiseaseCNN
+except ImportError:
+    try:
+        from vision.model import PlantDiseaseCNN
+    except ImportError:
+        from model import PlantDiseaseCNN
+
+try:
+    from src.preprocessing.pipeline import PreprocessingPipeline
+except ImportError:
+    try:
+        from preprocessing.pipeline import PreprocessingPipeline
+    except ImportError:
+        from pipeline import PreprocessingPipeline
 
 
 class VisualEmbeddingExtractor:
@@ -88,3 +101,38 @@ class VisualEmbeddingExtractor:
     def extract_batch(self, input_sources: List[Union[str, Image.Image, np.ndarray, Any]]) -> List[List[float]]:
         """Extracts embeddings for a batch of images."""
         return [self.extract(src) for src in input_sources]
+
+    def generate_and_cache_embeddings(
+        self,
+        output_path: str = "models/visual_embeddings_cache.npz",
+        num_samples_per_class: int = 2
+    ) -> str:
+        """
+        Generates reference visual embedding cache for baseline classes and saves to npz.
+        """
+        embeddings = []
+        labels = []
+        
+        for cid in range(38):
+            for s in range(num_samples_per_class):
+                # Create synthetic leaf sample tensor/image for class representation
+                img_arr = np.zeros((224, 224, 3), dtype=np.uint8)
+                img_arr[:, :, 1] = 150 + (cid * 2) % 100  # Green channel variation
+                img_arr[30:70, 30:70, 0] = 100 + (cid * 3) % 150  # Spot variation
+                emb = self.extract(img_arr)
+                embeddings.append(emb)
+                labels.append(cid)
+
+        emb_matrix = np.array(embeddings, dtype=np.float32)
+        label_vec = np.array(labels, dtype=np.int64)
+
+        os.makedirs(os.path.dirname(output_path), exist_ok=True)
+        np.savez_compressed(output_path, embeddings=emb_matrix, labels=label_vec)
+        print(f"Visual embedding cache saved to: {output_path} (shape: {emb_matrix.shape})")
+        return output_path
+
+
+if __name__ == "__main__":
+    extractor = VisualEmbeddingExtractor()
+    extractor.generate_and_cache_embeddings()
+

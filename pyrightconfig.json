@@ -1,8 +1,10 @@
 {
   "venvPath": ".",
   "venv": ".venv",
-  "extraPaths": ["src"],
+  "extraPaths": [".", "src"],
   "typeCheckingMode": "basic",
+  "reportMissingImports": false,
+  "reportMissingModuleSource": false,
   "reportPossiblyUnboundVariable": false,
   "reportOptionalMemberAccess": false,
   "reportOptionalCall": false,
